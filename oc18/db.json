@@ -1,0 +1,176 @@
+{
+  "images": [
+    {
+      "id": 0,
+      "label": "Imagem 1",
+      "url": "http://localhost:4200/assets/img/planta-cidade.png"
+    },
+    {
+      "id": 1,
+      "label": "Imagem 2",
+      "url": "http://localhost:4200/assets/img/planta-escola.png"
+    },
+    {
+      "id": 2,
+      "label": "Imagem 3",
+      "url": "http://via.placeholder.com/200x1000"
+    },
+    {
+      "id": 3,
+      "label": "Imagem 4",
+      "url": "http://via.placeholder.com/1000x200"
+    }
+  ],
+  "mapping": [
+    {
+      "imagesId": 0,
+      "top": 24.36,
+      "left": 26.5,
+      "title": "Teste PIN",
+      "content": "Teste PIN",
+      "icon": "<svg viewBox='0 0 24 24'><path fill='#000000' d='M10,20V14H14V20H19V12H22L12,3L2,12H5V20H10Z' /></svg>",
+      "img": "http://localhost:3001/img/escola-futuro/lightbox-banner.jpg",
+      "id": 1
+    },
+    {
+      "imagesId": 0,
+      "top": 75,
+      "left": 22.22,
+      "title": "Teste PIN 2",
+      "content": "Teste PIN 2",
+      "icon": "<svg viewBox='0 0 24 24'><path fill='#000000' d='M17,8C8,10 5.9,16.17 3.82,21.34L5.71,22L6.66,19.7C7.14,19.87 7.64,20 8,20C19,20 22,3 22,3C21,5 14,5.25 9,6.25C4,7.25 2,11.5 2,13.5C2,15.5 3.75,17.25 3.75,17.25C7,8 17,8 17,8Z' /></svg>",
+      "img": "http://localhost:3001/img/escola-futuro/lightbox-banner.jpg",
+      "id": 2
+    },
+    {
+      "imagesId": 0,
+      "top": 70.83,
+      "left": 31.28,
+      "title": "Teste PIN 3",
+      "content": "Teste PIN 3",
+      "icon": "<svg viewBox='0 0 24 24'><path fill='#000000' d='M18,10A1,1 0 0,1 17,9A1,1 0 0,1 18,8A1,1 0 0,1 19,9A1,1 0 0,1 18,10M12,10H6V5H12M19.77,7.23L19.78,7.22L16.06,3.5L15,4.56L17.11,6.67C16.17,7 15.5,7.93 15.5,9A2.5,2.5 0 0,0 18,11.5C18.36,11.5 18.69,11.42 19,11.29V18.5A1,1 0 0,1 18,19.5A1,1 0 0,1 17,18.5V14C17,12.89 16.1,12 15,12H14V5C14,3.89 13.1,3 12,3H6C4.89,3 4,3.89 4,5V21H14V13.5H15.5V18.5A2.5,2.5 0 0,0 18,21A2.5,2.5 0 0,0 20.5,18.5V9C20.5,8.31 20.22,7.68 19.77,7.23Z' /></svg>",
+      "img": "http://localhost:3001/img/escola-futuro/lightbox-banner.jpg",
+      "id": 3
+    },
+    {
+      "imagesId": 0,
+      "top": 65.38,
+      "left": 40.6,
+      "title": "Teste PIN 4",
+      "content": "Teste PIN 4",
+      "icon": "<svg viewBox='0 0 24 24'><path fill='#000000' d='M7,6H9A2,2 0 0,1 11,8V12H5V8A2,2 0 0,1 7,6M15,6H17A2,2 0 0,1 19,8V12H13V8A2,2 0 0,1 15,6M1,9H2A1,1 0 0,1 3,10V12A2,2 0 0,0 5,14H19A2,2 0 0,0 21,12V11L21,10A1,1 0 0,1 22,9H23A1,1 0 0,1 24,10V19H21V17H3V19H0V10A1,1 0 0,1 1,9Z' /></svg>",
+      "img": "http://localhost:3001/img/escola-futuro/lightbox-banner.jpg",
+      "id": 4
+    },
+    {
+      "imagesId": 0,
+      "top": 83.33,
+      "left": 44.87,
+      "title": "Teste PIN 5",
+      "content": "Teste PIN 5",
+      "icon": "<svg viewBox='0 0 24 24'><path fill='#000000' d='M19,3L13,9L15,11L22,4V3M12,12.5A0.5,0.5 0 0,1 11.5,12A0.5,0.5 0 0,1 12,11.5A0.5,0.5 0 0,1 12.5,12A0.5,0.5 0 0,1 12,12.5M6,20A2,2 0 0,1 4,18C4,16.89 4.9,16 6,16A2,2 0 0,1 8,18C8,19.11 7.1,20 6,20M6,8A2,2 0 0,1 4,6C4,4.89 4.9,4 6,4A2,2 0 0,1 8,6C8,7.11 7.1,8 6,8M9.64,7.64C9.87,7.14 10,6.59 10,6A4,4 0 0,0 6,2A4,4 0 0,0 2,6A4,4 0 0,0 6,10C6.59,10 7.14,9.87 7.64,9.64L10,12L7.64,14.36C7.14,14.13 6.59,14 6,14A4,4 0 0,0 2,18A4,4 0 0,0 6,22A4,4 0 0,0 10,18C10,17.41 9.87,16.86 9.64,16.36L12,14L19,21H22V20L9.64,7.64Z' /></svg>",
+      "img": "http://localhost:3001/img/escola-futuro/lightbox-banner.jpg",
+      "id": 5
+    },
+    {
+      "imagesId": 0,
+      "top": 72.12,
+      "left": 60.85,
+      "title": "Teste PIN 6",
+      "content": "Teste PIN 6",
+      "icon": "<svg style='width:24px;height:24px' viewBox='0 0 24 24'><path fill='#000000' d='M12,15C7.58,15 4,16.79 4,19V21H20V19C20,16.79 16.42,15 12,15M8,9A4,4 0 0,0 12,13A4,4 0 0,0 16,9M11.5,2C11.2,2 11,2.21 11,2.5V5.5H10V3C10,3 7.75,3.86 7.75,6.75C7.75,6.75 7,6.89 7,8H17C16.95,6.89 16.25,6.75 16.25,6.75C16.25,3.86 14,3 14,3V5.5H13V2.5C13,2.21 12.81,2 12.5,2H11.5Z' /></svg>",
+      "img": "http://localhost:3001/img/escola-futuro/lightbox-banner.jpg",
+      "id": 6
+    },
+    {
+      "imagesId": 0,
+      "top": 64.74,
+      "left": 71.71,
+      "title": "Teste PIN 7",
+      "content": "Teste PIN 7",
+      "icon": "<svg viewBox='0 0 24 24'><path fill='#000000' d='M10,3L8,5V7H5C3.85,7 3.12,8 3,9L2,19C1.88,20 2.54,21 4,21H20C21.46,21 22.12,20 22,19L21,9C20.88,8 20.06,7 19,7H16V5L14,3H10M10,5H14V7H10V5M11,10H13V13H16V15H13V18H11V15H8V13H11V10Z' /></svg>",
+      "img": "http://localhost:3001/img/escola-futuro/lightbox-banner.jpg",
+      "id": 7
+    },
+    {
+      "imagesId": 0,
+      "top": 47.76,
+      "left": 51.11,
+      "title": "Teste PIN 8",
+      "content": "Teste PIN 8",
+      "icon": "<svg viewBox='0 0 24 24'><path fill='#000000' d='M16,21H8A1,1 0 0,1 7,20V12.07L5.7,13.12C5.31,13.5 4.68,13.5 4.29,13.12L1.46,10.29C1.07,9.9 1.07,9.27 1.46,8.88L7.34,3H9C9,4.1 10.34,5 12,5C13.66,5 15,4.1 15,3H16.66L22.54,8.88C22.93,9.27 22.93,9.9 22.54,10.29L19.71,13.12C19.32,13.5 18.69,13.5 18.3,13.12L17,12.07V20A1,1 0 0,1 16,21M20.42,9.58L16.11,5.28C15.8,5.63 15.43,5.94 15,6.2C14.16,6.7 13.13,7 12,7C10.3,7 8.79,6.32 7.89,5.28L3.58,9.58L5,11L8,9H9V19H15V9H16L19,11L20.42,9.58Z' /></svg>",
+      "img": "http://localhost:3001/img/escola-futuro/lightbox-banner.jpg",
+      "id": 8
+    },
+    {
+      "imagesId": 0,
+      "top": 41.67,
+      "left": 60.43,
+      "title": "Teste PIN 9",
+      "content": "Teste PIN 9",
+      "icon": "<svg style='width:24px;height:24px' viewBox='0 0 24 24'><path fill='#000000' d='M20,10C22,13 17,22 15,22C13,22 13,21 12,21C11,21 11,22 9,22C7,22 2,13 4,10C6,7 9,7 11,8V5C5.38,8.07 4.11,3.78 4.11,3.78C4.11,3.78 6.77,0.19 11,5V3H13V8C15,7 18,7 20,10Z' /></svg>",
+      "img": "http://localhost:3001/img/escola-futuro/lightbox-banner.jpg",
+      "id": 9
+    },
+    {
+      "imagesId": 0,
+      "top": 36.22,
+      "left": 69.4,
+      "title": "Teste PIN 10",
+      "content": "Teste PIN 10",
+      "icon": "<svg viewBox='0 0 24 24'><path fill='#000000' d='M11.5,1L2,6V8H21V6M16,10V17H19V10M2,22H21V19H2M10,10V17H13V10M4,10V17H7V10H4Z' /></svg>",
+      "img": "http://localhost:3001/img/escola-futuro/lightbox-banner.jpg",
+      "id": 10
+    },
+    {
+      "imagesId": 1,
+      "top": 56.51,
+      "left": 18.72,
+      "title": "Teste PIN 1",
+      "content": "Teste PIN 1",
+      "icon": "<svg style='width:24px;height:24px' viewBox='0 0 24 24'><path fill='#000000' d='M12,2A2,2 0 0,1 14,4C14,4.74 13.6,5.39 13,5.73V7H14A7,7 0 0,1 21,14H22A1,1 0 0,1 23,15V18A1,1 0 0,1 22,19H21V20A2,2 0 0,1 19,22H5A2,2 0 0,1 3,20V19H2A1,1 0 0,1 1,18V15A1,1 0 0,1 2,14H3A7,7 0 0,1 10,7H11V5.73C10.4,5.39 10,4.74 10,4A2,2 0 0,1 12,2M7.5,13A2.5,2.5 0 0,0 5,15.5A2.5,2.5 0 0,0 7.5,18A2.5,2.5 0 0,0 10,15.5A2.5,2.5 0 0,0 7.5,13M16.5,13A2.5,2.5 0 0,0 14,15.5A2.5,2.5 0 0,0 16.5,18A2.5,2.5 0 0,0 19,15.5A2.5,2.5 0 0,0 16.5,13Z' /></svg>",
+      "img": "http://localhost:3001/img/escola-futuro/lightbox-banner.jpg",
+      "id": 11
+    },
+    {
+      "imagesId": 1,
+      "top": 23.55,
+      "left": 42.56,
+      "title": "Teste PIN 2",
+      "content": "Teste PIN 2",
+      "icon": "<svg viewBox='0 0 24 24'><path fill='#000000' d='M12,16A3,3 0 0,1 9,13C9,11.88 9.61,10.9 10.5,10.39L20.21,4.77L14.68,14.35C14.18,15.33 13.17,16 12,16M12,3C13.81,3 15.5,3.5 16.97,4.32L14.87,5.53C14,5.19 13,5 12,5A8,8 0 0,0 4,13C4,15.21 4.89,17.21 6.34,18.65H6.35C6.74,19.04 6.74,19.67 6.35,20.06C5.96,20.45 5.32,20.45 4.93,20.07V20.07C3.12,18.26 2,15.76 2,13A10,10 0 0,1 12,3M22,13C22,15.76 20.88,18.26 19.07,20.07V20.07C18.68,20.45 18.05,20.45 17.66,20.06C17.27,19.67 17.27,19.04 17.66,18.65V18.65C19.11,17.2 20,15.21 20,13C20,12 19.81,11 19.46,10.1L20.67,8C21.5,9.5 22,11.18 22,13Z' /></svg>",
+      "img": "http://localhost:3001/img/escola-futuro/lightbox-banner.jpg",
+      "id": 12
+    },
+    {
+      "id": 13,
+      "imagesId": 1,
+      "top": 55.96,
+      "left": 58.21,
+      "title": "Teste",
+      "content": "Teste",
+      "icon": "<svg viewBox='0 0 24 24'><path fill='#000000' d='M12,6A6,6 0 0,1 18,12C18,14.22 16.79,16.16 15,17.2V19A1,1 0 0,1 14,20H10A1,1 0 0,1 9,19V17.2C7.21,16.16 6,14.22 6,12A6,6 0 0,1 12,6M14,21V22A1,1 0 0,1 13,23H11A1,1 0 0,1 10,22V21H14M20,11H23V13H20V11M1,11H4V13H1V11M13,1V4H11V1H13M4.92,3.5L7.05,5.64L5.63,7.05L3.5,4.93L4.92,3.5M16.95,5.63L19.07,3.5L20.5,4.93L18.37,7.05L16.95,5.63Z' /></svg>",
+      "img": null
+    },
+    {
+      "imagesId": 1,
+      "top": 43.49,
+      "left": 78.21,
+      "title": "Teste PIN 4",
+      "content": "Teste PIN 4",
+      "icon": "<svg viewBox='0 0 24 24'><path fill='#000000' d='M15,4V6H18V18H15V20H20V4M4,4V20H9V18H6V6H9V4H4Z' /></svg>",
+      "id": 14,
+      "img": null
+    },
+    {
+      "imagesId": 1,
+      "top": 22.44,
+      "left": 72.22,
+      "title": "Teste PIN 5",
+      "content": "Teste PIN 5",
+      "icon": "<svg style='width:24px;height:24px' viewBox='0 0 24 24'><path fill='#000000' d='M9.46,6.28L11.05,9C8.47,9.26 6.5,11.41 6.5,14A5,5 0 0,0 11.5,19C13.55,19 15.31,17.77 16.08,16H13.5V14H21.5V16H19.25C18.84,17.57 17.97,18.96 16.79,20H19.5V22H3.5V20H6.21C4.55,18.53 3.5,16.39 3.5,14C3.5,10.37 5.96,7.2 9.46,6.28M12.74,2.07L13.5,3.37L14.36,2.87L17.86,8.93L14.39,10.93L10.89,4.87L11.76,4.37L11,3.07L12.74,2.07Z' /></svg>",
+      "img": "http://localhost:3001/img/escola-futuro/lightbox-banner.jpg",
+      "id": 15
+    }
+  ]
+}

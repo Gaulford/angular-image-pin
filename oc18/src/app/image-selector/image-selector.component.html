@@ -1,0 +1,10 @@
+<select name="image-selector"
+        id="image-selector"
+        [(ngModel)]="selectedImage"
+        (ngModelChange)="OnImageChange( $event )">
+    <option *ngFor="let image of data; let first = first"
+            [ngValue]="image"
+            [attr.selected]="first ? '' : null">
+        {{ image.label }}
+    </option>
+</select>

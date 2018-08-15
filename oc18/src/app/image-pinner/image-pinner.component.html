@@ -1,0 +1,11 @@
+<div class="container-pinner">
+    <img #img
+         [src]="images.image.url"
+         [alt]="images.image.label"
+         (load)="OnLoadImage( $event, img )"
+         (click)="OnPinImage( $event )">
+    <div *ngFor="let pin of pinners.pinsList"
+         class="pinner"
+         (click)="OnEditPin( pin )"
+         [ngStyle]="{ top: pin.top + '%', left: pin.left + '%' }"></div>
+</div>

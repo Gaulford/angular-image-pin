@@ -1,0 +1,69 @@
+<div class="overlay"
+     (click)="OnCancel()"
+     [hidden]="!images.onPinRunning">
+</div>
+
+<div class="modal"
+     [hidden]="!images.onPinRunning">
+    <form #pinCRUD="ngForm"
+          (ngSubmit)="OnSubmit( pinCRUD )">
+        <h1>Cadastre um PIN</h1>
+        <div [hidden]="!file">
+            <img [src]="file"
+                 alt=""
+                 class="img-preview">
+        </div>
+        <div>
+            <label for="pin_file">
+                Arquivo
+            </label>
+            <input type="file"
+                   name="pin_file"
+                   id="pin_file"
+                   ngModel
+                   (change)="OnFileInserted( $event )">
+        </div>
+        <div>
+            <label for="pin_title">
+                Titulo
+            </label>
+            <input type="text"
+                   name="pin_title"
+                   id="pin_title"
+                   #pin_title="ngModel"
+                   [(ngModel)]="images.formSendPin.title"
+                   required>
+            <div [hidden]="pin_title.valid || ( pin_title.pristine && !pinCRUD.submitted )">
+                <p [hidden]="!pin_title.errors?.required">
+                    Esse campo é obrigatório.
+                </p>
+            </div>
+        </div>
+        <div>
+            <label for="pin_content">
+                Titulo
+            </label>
+            <textarea name="pin_content"
+                      id="pin_content"
+                      #pin_content="ngModel"
+                      [(ngModel)]="images.formSendPin.description"
+                      required></textarea>
+            <div [hidden]="pin_content.valid || ( pin_content.pristine && !pinCRUD.submitted )">
+                <p [hidden]="!pin_content.errors?.required">
+                    Esse campo é obrigatório.
+                </p>
+            </div>
+        </div>
+        <button type="button"
+                (click)="OnCancel()">
+            Cancelar
+        </button>
+        <button type="button"
+                (click)="OnDelete()">
+            Deletar
+        </button>
+        <button type="submit">
+            Cadastrar PIN
+        </button>
+    </form>
+</div>
