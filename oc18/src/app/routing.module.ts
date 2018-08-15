@@ -6,7 +6,8 @@ import {ImageMappingComponent} from "./image-mapping/image-mapping.component";
 const routes: Routes = [
     {
         path: "",
-        pathMatch: "full"
+        pathMatch: "full",
+        component: ImageMappingComponent
     },
     {
         path: "home",

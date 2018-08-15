@@ -15,7 +15,7 @@ export class PinsService
     public GetData( id: number )
     {
         return this.http.get(
-            "http://localhost:4201/mapping",
+            "http://localhost:3000/mapping",
             {
                 params: {
                     imagesId: id
